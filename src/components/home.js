@@ -1,7 +1,7 @@
 import react from 'react';
 
 const Home = () => {
-    return <h1>This is the Home Component!</h1>;
+    return React.createElement('h1', null, 'This is the Home Component!');
 
 }
 export default Home;
